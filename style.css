@@ -27,7 +27,7 @@ body *{
     color: #E3B873;
 }
 
-.button{
+.all-orange{
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
@@ -35,9 +35,13 @@ body *{
     border: 0;
     width: 161px;
     height: 37px;
-    color: white;
     font-family:'Nunito Sans', Arial, sans-serif;
     text-transform: uppercase;
+}
+
+.button{
+    color: white;
+    cursor: pointer;
 }
 
 .nav-button{
@@ -60,6 +64,10 @@ body *{
     margin-right: 47px;
 }
 
+.nav-item:hover{
+    color:#E3B873; 
+}
+
 .nav-item{
     color: white;
     text-decoration: none;
@@ -74,9 +82,8 @@ body *{
 .hat-page{
     background-image: url(./images/name_page.jpg);
     width: 100%;
-    height: 707px;
+    height: 800px;
     background-size: cover;
-    padding-top: 194px;
     position: relative;
 }
 
@@ -95,6 +102,11 @@ body *{
     bottom: 0;
   }
 
+.info-pages{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
 .name-text{
     font-family: 'Yeseva One', 'Times New Roman', Times, serif;
     font-style: normal;
@@ -105,6 +117,10 @@ body *{
     color: #FFFFFF;
     padding: 194px 627px 408px 134px;
     position: absolute;
+}
+
+.orange-text{
+    color:#E3B873; 
 }
 
 .hat-text{
@@ -119,9 +135,136 @@ body *{
 }
 
 .button-hat{
-    margin-right: 20px;
+    padding: 448px 1097px 208px 134px;
     font-size: 9px;
+    display: flex;
+    
 }
 
+.orange-button{
+    margin-right: 20px;
+}
 
+.white-button{
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    background-color: #11ffee00;
+}
+
+.orange-button, .white-button{
+    width: 207px;
+    height: 51px;
+}
+
+.exposition{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 1074px;  
+}
+
+.exposition-container{
+    margin: 107px 135px;
+}
+
+.expo-header{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    padding-right: 56px;
+}
+
+.expo-header:hover{
+    color:#E3B873;
+    text-decoration: underline;
+}
+
+.exposition-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 45px;
+}
+
+.expo-name{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    grid-area: A;
+}
+
+.expo-text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    grid-area: B;
+}
+
+.expo-room-name{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.expo-room-text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.expo-image{
+    max-width: 679px;
+    max-height: 482px;
+    filter: drop-shadow(0px 50px 30px rgba(0, 0, 0, 0.15));
+}
+
+.room{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-areas:
+    "A A K K"
+    "B B K K"
+    "C D K K"
+    "E F K K";
+    gap: 20px;
+}
+
+.expo-image{
+    grid-area: K;
+}
+
+.city{
+    grid-area: C;
+}
+
+.area{
+    grid-area: D;
+}
+
+.time{
+    grid-area: E;
+}
+
+.cost{
+    grid-area: F;
+}
 
