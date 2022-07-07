@@ -316,5 +316,29 @@ body *{
     filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));
     position: absolute;
     margin-top: 36px;
+
 }
 
+.video-block img{
+    filter: brightness(40%);
+    z-index: 0;   
+}
+
+.play{
+    width: 30px;
+    padding-left: 6px;
+    z-index: 3;
+}
+
+.button-play{
+    background: #E3B873;
+    box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+    border-radius: 50%;
+    border: none;
+    z-index: 2;
+    position: relative;
+    margin-top: 210px;
+    width: 85px;
+    height: 85px;
+    z-index: 2;
+}
