@@ -268,3 +268,53 @@ body *{
     grid-area: F;
 }
 
+.online-control{
+    width: 196px;
+    height: 90px;
+    margin: 100px 620px 257px 623px;
+
+    
+}
+
+.text-control{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.control-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    background: #E3B873;
+    border-radius: 30px;
+    width: 32px;
+    height: 1.5px;
+    align-items: center;
+}
+
+.logo-controle{
+    width: 33px;
+    height: 25px;
+}
+
+.video-block{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    max-width: 800px;
+    max-height: 400px;
+    filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));
+    position: absolute;
+    margin-top: 36px;
+}
+
