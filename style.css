@@ -320,14 +320,12 @@ body *{
 }
 
 .video-block img{
-    filter: brightness(40%);
-    z-index: 0;   
+    filter: brightness(40%);  
 }
 
 .play{
     width: 30px;
     padding-left: 6px;
-    z-index: 3;
 }
 
 .button-play{
@@ -340,5 +338,110 @@ body *{
     margin-top: 210px;
     width: 85px;
     height: 85px;
-    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:375px) {
+    header{
+        padding: 23px 18px;
+    }
+    .item{
+        display:none;
+    }
+    .button-head{
+        display:none;
+    }
+    .header-navigation-item{
+        font-size: 11px; 
+        padding:0; 
+        margin: 0;
+    }
+    .nav-button{
+        padding: 0;
+        margin: 0;
+        font-size: 11px; 
+    }
+    
+    .hat-page{
+        width: 100%;
+        height: 476px;
+    }
+    .name-text{
+        font-size: 23px;
+        padding: 35px 18px 0px;
+    }
+    .hat-text{
+        font-size: 14px;
+        padding: 181px 18px;
+    }
+    .button-hat{
+        flex-direction: column;
+        padding: 320px 18px;
+    }
+    .white-button{
+        margin-top: 27px;
+        width: 290px;
+    }
+    .orange-button{
+        width: 290px;
+    }
+    .exposition-list{
+        display: none;
+    }
+    .exposition{
+        padding:40px 18px;
+    }
+    .expo-name{
+        font-size: 22px;
+    }
+    .exposition-container{
+        margin: 0;
+    }
+    .expo-image{
+        width: 320px;
+        height: 240px;
+    }
+    .expo-room-name{
+        font-size: 14px;
+    }
+    .expo-room-text .expo-text{
+        font-size: 11px;
+    }
+    .room{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 1fr);
+        grid-template-areas:
+        "A A"
+        "B B"
+        "K K"
+        "K K"
+        "C D"
+        "E F";
+        gap: 20px;
+    }
+    .online-control{
+        margin: 0;
+    }
+    .video{
+        width: 265px;
+        height: 160px;   
+    }
+    .button-play{
+        width: 37px;
+        height: 37px;
+        margin: 85px 151px;
+    }
+    .play{
+        width:20px;
+        height: 20px;
+    }
 }
