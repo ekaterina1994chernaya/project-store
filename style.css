@@ -284,6 +284,8 @@ body *{
     line-height: 28px;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
 }
 
 .control-logo{
@@ -343,8 +345,8 @@ body *{
 .order{
     padding: 0;
     position: absolute;
-    max-width: 770px;
-    max-height: 360px;
+    width: 770px;
+    height: 360px;
     padding-top: 258px;
     display: flex;
     justify-content: center;
@@ -439,6 +441,23 @@ input, label {
     margin-left: 150px;
   }
 
+  .type{
+    width: 1260px;
+    height: 728px;
+    margin:870px 85px 100px 93px;
+  }
+
+  .text-type{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -541,7 +560,7 @@ input, label {
     .order-info-line{
         width: 100%;
         margin: 0;
-        margin-top: 100px;
+        margin-top: 250px;
     }
     .order{
         margin: 0px;
@@ -550,7 +569,7 @@ input, label {
     }
     .order-line{
         margin: 0;
-        margin-top: 150px;
+        margin-top: 0px;
         margin-left: 100px;
     }
     .button-submit{
@@ -560,5 +579,11 @@ input, label {
     }
     .first-checkbox{
         margin: 0;
+    }
+
+    .type{
+        margin: 800px 0;
+        width: 100%;
+        height: auto;
     }
 }
