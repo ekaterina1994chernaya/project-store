@@ -346,6 +346,10 @@ body *{
     max-width: 770px;
     max-height: 360px;
     padding-top: 258px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 330px;
 }
 
 .order-line{
@@ -353,18 +357,26 @@ body *{
     border-radius: 30px;
     width: 55px;
     height: 1.5px;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    margin-left: 350px;
 }
 
 .order-info{
     font-family: 'Nunito Sans';
     font-style: normal;
+    width: 680px;
+    height: 130px;
     font-weight: 400;
     font-size: 18px;
     line-height: 37px;
     text-align: center;
     color: #363636;
+    position: absolute;
+}
+.order-info-line{
+    padding:50px;
+    margin-top: 40px;
+
 }
 
 .opder-name{
@@ -377,10 +389,6 @@ body *{
      
 }
 
-.order-form{
-    display: flex;
-}
-
 .input{
     height: 38px;
     border-top: none;
@@ -391,12 +399,45 @@ body *{
 
 .input-order {
     display: inline-block;
+    padding-right: 50px;
+    padding-left: 20px;
 }
  
 input, label {
     display: block;
 }
-
+.label {
+    cursor: pointer;
+  }
+  .checkbox{
+    display: none;
+  }
+  .fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+  }
+  .fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+  .checkbox:checked + .fake::before{
+    opacity: 1;
+  }
+  .text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .first-checkbox{
+    margin-top: 30px;
+    margin-left: 150px;
+  }
 
 
 
@@ -485,7 +526,7 @@ input, label {
     }
     .video{
         width: 265px;
-        height: 160px;   
+        height: 160px; 
     }
     .button-play{
         width: 37px;
@@ -495,5 +536,29 @@ input, label {
     .play{
         width:20px;
         height: 20px;
+    }
+
+    .order-info-line{
+        width: 100%;
+        margin: 0;
+        margin-top: 100px;
+    }
+    .order{
+        margin: 0px;
+        position: absolute;
+        width: 100%;
+    }
+    .order-line{
+        margin: 0;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .button-submit{
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+    }
+    .first-checkbox{
+        margin: 0;
     }
 }
