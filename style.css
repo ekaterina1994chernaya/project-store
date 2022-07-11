@@ -548,6 +548,7 @@ input, label {
 }
 .black-regi-form{
     padding:10px 50px 100px;
+    margin-bottom: 80px;
 }
 .register-name{
     font-family: 'Nunito Sans';
@@ -593,6 +594,44 @@ input, label {
     font-size: 13px;
     padding: 18px 22px;
 }
+.list-card{
+    height: 100px;
+    display: flex;
+    margin-left: 241px;
+    margin-top: 55px;
+    margin-left: 241px;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    border-color: #fff;
+    border-width: 10px;
+    background-color: #E3B873;
+    border-radius: 50%; 
+}
+.card-num{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    padding: 25px 25px;   
+}
+.list-card-text{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636; 
+    margin: 25px 20px;   
+}
+
+
+
 .sale-text{
     font-family: 'Nunito Sans';
     font-style: normal;
