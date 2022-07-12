@@ -798,7 +798,7 @@ input, label {
 }
 .card-block{
     width: 100%;
-    height: 854px;
+    height: 954px;
     background-image: url("./images/footer.jpg");
 }
 .form-questions{
@@ -808,7 +808,7 @@ input, label {
     padding: 17px 117px;
     position: absolute;
     margin-top: -210px;
-    margin-left: 350px;
+    margin-left: 400px;
 }
 .name-questions{
     font-family: 'Yeseva One';
@@ -841,8 +841,62 @@ input, label {
     justify-content: center;
 }
 
+.footer-name{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase; 
+    color: #E3B873;
+    padding-top: 330px; 
+    margin-left: 540px;
+    width: 500px;
+}
+.footer-button-container{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.footer-button{
+    background: #E3B873;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: none;
+    margin-bottom: 40px;
+}
+.foot-icon{
+    display: flex;
+    justify-content: center;
+}
+.map{
+    width: 900px;
+    height: 393px;
+    margin-left: 150px;
+    
+}
 
+.footer{
+    background-color:black;
+    text-transform: uppercase;   
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
 
+.footer-navigation{
+    list-style: none;
+    display: flex;
+}
+
+.footer-navigation-item{
+    margin-right: 47px;
+}
 
 
 
